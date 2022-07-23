@@ -117,11 +117,13 @@ void loop() {
   
   for(pos=0;pos<=180;pos++) 
     { servoequiv.write(pos);
-    delay(15); }
+    delay(15);
+    }
   
   for(pos=180;pos>=0;pos--);
     { servoequiv.write(pos); 
-    delay(15); } 
+    delay(15);
+    } 
 }
 ```
 
